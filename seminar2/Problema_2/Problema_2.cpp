@@ -1,20 +1,25 @@
-// Problema_2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include "Student.h"
+#include "functions.h"
 
-#include <iostream>
+int main() {
 
-int main()
-{
-    std::cout << "Hello World!\n";
+	Student stud1("Victor", 5.6f, 9.5f, 6.7f);
+	Student stud2("Marcu", 6.6f, 9.5f, 10);
+
+	stud1.print();
+	stud2.print();
+
+	//stud1.setName("Blindu Andrada");
+	//stud1.setGradeEng(10);
+	//stud1.setGradeHist(7);
+	//stud1.setGradeMath(9.5f);
+	//stud1.print();
+
+	cout << "\nValue after name comparision: " << nameCompare(stud1, stud2);
+	cout << "\nValue after Math grade comparision: " << mathGradeCompare(stud1, stud2);
+	cout << "\nValue after English grade comparision: " << engGradeCompare(stud1, stud2);
+	cout << "\nValue after History grade comparision: " << histGradeCompare(stud1, stud2);
+	cout << "\nValue after average grade comparision: " << avgGradeCompare(stud1, stud2);
+
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
