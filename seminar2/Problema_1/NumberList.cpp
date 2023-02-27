@@ -24,22 +24,22 @@ void NumberList::Init() {
 
 bool NumberList::Add(int x) {
 
-	int i = 0;
-
-	while (count < 10) {
-		numbers[i] += x;
-		i++;
-		count++;
+	
+	if (count >= 10)
+	{
+		return false;
 	}
+	numbers[count] = x;
+	count++;
 
-	return 0;
+	return true;
 
 }
 
 void NumberList::Sort() {
 	
-	for(auto i=0;i<9;i++)
-		for(auto j=i+1;j<10;j++)
+	for(auto i=0;i<count-1;i++)
+		for(auto j=i+1;j<count;j++)
 			if (numbers[i] > numbers[j]) {
 				int aux = numbers[i];
 				numbers[i] = numbers[j];
@@ -49,7 +49,7 @@ void NumberList::Sort() {
 }
 
 void NumberList::Print() {
-	for (auto i = 0; i < 10; i++)
+	for (auto i = 0; i < count; i++)
 		cout << numbers[i] << " ";
 	cout << '\n';
 
