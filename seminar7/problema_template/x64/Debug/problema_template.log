@@ -1,0 +1,8 @@
+﻿  problema_template.cpp
+problema_template.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector<int>::Vector<int>(int,int *)" (??0?$Vector@H@@QEAA@HPEAH@Z) referenced in function main
+problema_template.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector<int>::~Vector<int>(void)" (??1?$Vector@H@@QEAA@XZ) referenced in function main
+problema_template.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector<int>::Print(void)" (?Print@?$Vector@H@@QEAAXXZ) referenced in function main
+problema_template.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector<double>::Vector<double>(int,double *)" (??0?$Vector@N@@QEAA@HPEAN@Z) referenced in function main
+problema_template.obj : error LNK2019: unresolved external symbol "public: __cdecl Vector<double>::~Vector<double>(void)" (??1?$Vector@N@@QEAA@XZ) referenced in function main
+problema_template.obj : error LNK2019: unresolved external symbol "public: void __cdecl Vector<double>::Print(void)" (?Print@?$Vector@N@@QEAAXXZ) referenced in function main
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar7\problema_template\x64\Debug\problema_template.exe : fatal error LNK1120: 6 unresolved externals
