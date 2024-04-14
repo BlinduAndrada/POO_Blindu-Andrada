@@ -1,0 +1,5 @@
+﻿  Number.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar5\Problema5\Number.cpp(8,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Problema5.cpp
+  Generating Code...
+  Problema5.vcxproj -> C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar5\Problema5\x64\Debug\Problema5.exe

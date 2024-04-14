@@ -1,0 +1,4 @@
+﻿  Number.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar5\problema 5 2.0\Problema5_2.0\Number.cpp(33,45): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar5\problema 5 2.0\Problema5_2.0\Number.cpp(50,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Problema5_2.0.vcxproj -> C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar5\problema 5 2.0\Problema5_2.0\x64\Debug\Problema5_2.0.exe
