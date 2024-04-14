@@ -1,0 +1,7 @@
+﻿  Map.cpp
+  seminar9.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar9\seminar9\seminar9.cpp(15,16): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar9\seminar9\seminar9.cpp(16,65): fatal  error C1907: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'D:\PROGRAMS\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information
