@@ -1,0 +1,16 @@
+﻿  Car.cpp
+  Circuit.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Circuit.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Circuit.cpp(30,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Hyundai.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Hyundai.cpp(20,32): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Mazda.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Mazda.cpp(20,32): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Nissan.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Nissan.cpp(20,32): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Problema_1.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Circuit.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Toyota.cpp
+C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\Toyota.cpp(20,32): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Problema_1.vcxproj -> C:\Users\andra\OneDrive\Desktop\facultate sem 2\OOP\seminar6\Problema_1\x64\Debug\Problema_1.exe
